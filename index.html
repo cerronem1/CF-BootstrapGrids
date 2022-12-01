@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Grid Demo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="my-3">Basic Bootstrap Column Learning</h1>
+
+      <h2 class="my-3">Playing with Bootstrap columns...</h2>
+
+      <div class="row">
+        <div class="col border">Row 1 Col 1</div>
+        <div class="col border">Row 1 Col 2</div>
+      </div>
+      <!-- Text alignment is handled in the "row" class section of the grid -->
+      <div class="row text-center">
+        <div class="col border">Row 2 Col 1</div>
+        <div class="col border">Row 2 Col 2</div>
+      </div>
+      <div class="row text-end">
+        <div class="col border">Row 3 Col 1</div>
+        <div class="col border">Row 3 Col 2</div>
+      </div>
+
+      <p class="my-5"></p>
+
+      <div class="row">
+        <!-- Column width is handled in the "col" class -->
+        <div class="col-4 border">Row 1 Col 1</div>
+        <div class="col-8 border">Row 1 Col 2</div>
+      </div>
+      <div class="row">
+        <div class="col-8 border">Row 2 Col 1</div>
+        <div class="col-4 border">Row 2 Col 2</div>
+      </div>
+      <div class="row">
+        <!-- Column widths must add up to 12 units -->
+        <div class="col-3 border">Row 3 Col 1</div>
+        <div class="col-4 border">Row 3 Col 2</div>
+        <!-- When no unit value is given, it will use up the rest of the space, i.e. "5" here -->
+        <div class="col border">Row 3 Col 3</div>
+      </div>
+
+      <p class="my-5"></p>
+
+      <!-- These rows will stack as the width of the window decreases -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12 border">Row 1 Col 1</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 border">Row 1 Col 2</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 border">Row 1 Col 3</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 border">Row 1 Col 4</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="my-5">Labs/Exercises</h2>
+
+      <h3 class="my-3">Exercise 1</h3>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="content"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="content bg-alt"></div>
+        </div>
+      </div>
+
+      <h3 class="my-3">Exercise 2</h3>
+
+      <h3 class="my-3">Exercise 3a</h3>
+
+      <h3 class="my-3">Exercise 3b</h3>
+
+      <h3 class="my-3">Exercise 4</h3>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="content bg-black"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="content"></div>
+        </div>
+      </div>
+
+      <h3 class="my-3">Exercise 5</h3>
+
+      <h3 class="my-3">Exercise 6</h3>
+
+      <h3 class="my-3">Exercise 7</h3>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="intro"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="content"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="content bg-alt"></div>
+        </div>
+      </div>
+
+      <h3 class="my-3">Exercise 8</h3>
+
+      <h3 class="my-3">Exercise 9</h3>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
